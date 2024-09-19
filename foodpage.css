@@ -1,0 +1,171 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgba(236, 178, 235, 0.943);
+    font-family: monospace;
+    font-weight: bold;
+    padding: 5px, 5px;
+
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    font-size: 30px;
+    color: rgb(7, 7, 7);
+    font-weight: bolder;
+    margin-left: 40px;
+}
+
+button {
+    background-color: black;
+    margin-left: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    opacity: 0.7;
+}
+
+button a {
+    color: white;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgba(46, 46, 150, 0.653);
+}
+
+.container {
+    background-image: linear-gradient(to top, rgba(53, 17, 17, 0.715)50%, rgba(53, 17, 17, 0.715)50%), url(./images/pexels-vincent-ma-janssen-1310777.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.box {
+    width: 800px;
+    height: 380px;
+    background-color: rgba(236, 178, 235, 0.397);
+    position: relative;
+    left: 300px;
+    top: 300px;
+    margin: 20px;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: justify;
+    color: white;
+    font-weight: bold;
+}
+
+p {
+    font-size: 30px;
+    text-align: justify;
+    color: white;
+    padding-bottom: 10px;
+    line-height: 40px;
+}
+
+.food-items {
+    height: 100%;
+    background-image: linear-gradient(to left, yellow, rgb(246, 140, 193)60%);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.order-title {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 70px;
+}
+
+.menu {
+
+    height: 500px;
+    background-color: white;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-container {
+    width: 100%;
+    height: 350px;
+    border-top-right-radius: 60px;
+
+}
+
+.img-container img {
+    width: 300px;
+    height: 250px;
+    border-top-right-radius: 60px;
+    overflow: hidden;
+}
+
+.discrip {
+    text-align: center;
+    width: 290px;
+    height: 100px;
+    position: relative;
+    bottom: 75px;
+
+}
+
+.hadeline {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.lines {
+    font-size: 20px;
+
+}
+
+.btn{
+  width: 200px;
+  height: 70px;
+  background-color: darkred;
+  position: sticky ;
+
+}
